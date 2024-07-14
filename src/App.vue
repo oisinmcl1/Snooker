@@ -1,19 +1,28 @@
 <template>
   <div id="app">
-    <ScoreDisplay label = "Frame Score" :player1score="10" :player2Score="15" />
+    <PlayerScore pName="Player 1" initScore="0" pStyle="p1-Sec"/>
+    <PlayerScore pName="Player 2" initScore="0" pStyle="p2-Sec"/>
   </div>
 </template>
 
 <script>
-import ScoreDisplay from './components/ScoreDisplay.vue';
+import PlayerScore from './components/PlayerScore.vue';
 
 export default {
   name: 'App',
   components: {
-    ScoreDisplay
+    PlayerScore
   }
 }
 </script>
 
 <style>
+.app {
+}
+
+.p1-Sec {
+}
+
+.p2-Sec {
+}
 </style>
