@@ -33,4 +33,10 @@
 </script>
 
 <style scoped>
+.pInfo {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
 </style>
